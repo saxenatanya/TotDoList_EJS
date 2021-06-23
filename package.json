@@ -4,7 +4,7 @@
   "description": "Todo list in javascript es6",
   "main": "app.js",
   "scripts": {
-    "serve":"nodemon app.js",
+    "serve": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tanya Saxena",
@@ -12,7 +12,9 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.1.6",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.14"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
